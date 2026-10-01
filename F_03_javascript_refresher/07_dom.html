@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Manipulation</title>
+</head>
+<body>
+  <button id="updateTextBtn">Change Text</button>
+  <p id="statusMsg">Listening to uplifting music...</p>
+
+  <script>
+    const button = document.getElementById("updateTextBtn");
+    button.addEventListener("click", () => {
+      const newText = prompt("Enter new favorite activity:");
+      if (newText) {
+        document.getElementById("statusMsg").textContent = newText;
+      }
+    });
+
+    setTimeout(() => {
+      console.log("Dance practice time!");
+    }, 2000);
+  </script>
+</body>
+</html>
