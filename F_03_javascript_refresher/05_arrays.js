@@ -1,11 +1,29 @@
-let myHobbies = ["learning a dance trend", "reading novels", "listening to uplifting music"];
+let favoriteDesserts = [
+  "Buttercup Cupcakes",
+  "Enchancian Berry Tart",
+  "Royal Apple Turnover"
+];
 
-myHobbies.push("journaling");
-myHobbies.shift();
+// 1. push() - Mutates: adds an element to the end
+favoriteDesserts.push("Princess Velvet Cake");
 
-for (const hobby of myHobbies) {
-  console.log(hobby);
+// 2. shift() - Mutates: removes the first element
+favoriteDesserts.shift();
+
+// 3. for...of - Iterates over elements
+console.log("Iterating with for...of:");
+for (const dessert of favoriteDesserts) {
+  console.log("- " + dessert);
 }
 
-const formattedHobbies = myHobbies.map(hobby => "I enjoy " + hobby);
-console.log(formattedHobbies);
+// 4. map() - Non-mutating: returns a new transformed array
+const transformedDesserts = favoriteDesserts.map(
+  (dessert) => "Delicious " + dessert
+);
+
+// Comparison
+console.log("\nOriginal Array after mutations:");
+console.log(favoriteDesserts);
+
+console.log("\nTransformed Array (returned by map):");
+console.log(transformedDesserts);

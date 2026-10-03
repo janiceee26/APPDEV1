@@ -1,4 +1,8 @@
-01_base_syntax.js
+Antigravity JavaScript Refresher Reflection
+
+PART_1
+
+1_base_syntax.js
 
 Prompt
 Execute modifications in F_L02_antigravity-javascript-refresher\01_base_syntax.js:
@@ -36,3 +40,12 @@ Create an aboutMe object in 04_objects.js with name ("Princess Sofia"), age (19)
 
 Reflection
 I really thought about the prompt first po muna so that yung AI can explain yung whole this keyword thingy before writing the code, para super clear yung difference ng regular and arrow functions po.
+
+05_arrays.js
+
+Prompt
+In 05_arrays.js, demonstrate push, shift, for...of, and map using a list of Princess Sofia's favorite desserts. Before running the code, explain which operations mutate the original array, which one returns a new array, and why map is essential for React list rendering. Last is...execute mo yung code to compare the original and transformed arrays.
+
+Reflection
+Super na-stress po ako here coz literal na nag-lalag both my lappy and my brain, like feeling ko end of the world na😭😭
+bwahahahhahahahaha! Pero I really took my time naman po to construct a clear prompt so the AI could break down array mutations and map() properly without confusing me so much^^.
