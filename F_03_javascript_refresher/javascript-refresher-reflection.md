@@ -92,3 +92,11 @@ Review 10_let_const.js using Princess Sofia's code examples. Briefly explain whe
 
 Reflection
 I kept the prompt short and targeted so the AI would provide a direct style review without overwhelming me with unnecessary code changes. Effective naman po kahit papano hehe.
+
+11_arrow_functions.js
+
+Prompt
+Refactor the functions in 11_arrow_functions.js into arrow functions using Princess Sofia's theme. Run the file, then briefly explain which examples use implicit return versus a full function body.
+
+Reflection
+I kept the prompt concise lang po para si AI na bahala mag-refactor ng code na clean and immediately maha-highlight yung key syntactic difference ng implicit returns and full function bodies.
