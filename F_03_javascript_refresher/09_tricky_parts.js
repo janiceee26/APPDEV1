@@ -1,23 +1,18 @@
-console.log(26 == "26");  // true
-console.log(26 === "26"); // false
+// Princess Sofia's Royal Items - Equality & Emptiness
 
-let unassignedVar;
-let emptyVar = null;
-console.log(unassignedVar, emptyVar);
+// 1. Equality with Amulet of Avalor
+const amuletCount = 1;
+console.log(amuletCount == "1");   // Loose equality
+console.log(amuletCount === "1");  // Strict equality
 
-const personObj = {
-  name: "Celine",
-  regularFunc: function() { console.log(this.name); },
-  arrowFunc: () => { console.log(this.name); }
-};
-personObj.regularFunc();
-personObj.arrowFunc();
+// 2. Emptiness with Royal Gifts
+let unassignedGift;                // undefined
+const emptyJewelryBox = null;      // null
+console.log(unassignedGift == emptyJewelryBox);  // Loose equality
+console.log(unassignedGift === emptyJewelryBox); // Strict equality
+console.log(typeof emptyJewelryBox);             // typeof null quirk
 
-const originalNumbers = [13, 17];
-const refCopy = originalNumbers;
-refCopy.push(25);
-console.log(originalNumbers); // [13, 17, 25]
-
-const spreadCopy = [...originalNumbers];
-spreadCopy.push(26);
-console.log(originalNumbers); // [13, 17, 25]
+// 3. Object Reference with Royal Tiaras
+const tiaraA = { gems: 5 };
+const tiaraB = { gems: 5 };
+console.log(tiaraA === tiaraB);    // Reference comparison

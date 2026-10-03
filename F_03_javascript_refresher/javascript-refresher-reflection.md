@@ -77,4 +77,10 @@ Try to demonstrate .map(), destructuring, and spread syntax using Princess Sofia
 Reflection
 Nakakasabog po hahahaha, but I managed to ask the AI to show how these three modern JS features connect and why they matter for React naman. ^^
 
+09_tricky_parts.js
 
+Prompt
+Create 09_tricky_parts.js covering JS equality and emptiness using Princess Sofia's royal items. Provide a short prediction table with brief explanations, then execute the script to show the actual output concise and direct.
+
+Reflection
+I intentionally structured po the prompt to require ng clear technical explanation and a prediction table prior to code execution, ensuring a full understanding of JavaScript's coercion and truthiness rules.
