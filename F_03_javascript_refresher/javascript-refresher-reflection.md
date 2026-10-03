@@ -15,7 +15,6 @@ Narerealize ko po na mas nakakatulong pala kapag naka-bullet points at organized
 
 Prompt
 
-Using F_L02_antigravity-javascript-refresher\02_variables.js:
 - Explain string, number, and boolean using Sofia the First characters.
 - Show the difference between typeof, ==, and ===.
 - Give a 2-step plan before editing.
@@ -23,3 +22,16 @@ Using F_L02_antigravity-javascript-refresher\02_variables.js:
 Reflection
 
 Here po, matagal me na nag-isip ng mga ipa-prompt coz mine-make sure ko lang din po para malinaw ang pag-eexplain ng AI sa mga concept bago magbago ng anything sa file.
+
+03_functions.js
+
+Prompt
+
+- Implement greet(name) as function declaration using "Justin Bieber", square(num) as arrow function, and calculator(a, b) returning an object.
+- Run node 03_functions.js.
+- If it fails, explain the error before fixing, then give a short code review.
+
+Reflection
+
+Pinag-isipan ko po munang maigi yung every details ng prompt para siguradong sunod-sunod at walang ma-miss na instruction ang AI  po sa pagbuild ng functions.
+

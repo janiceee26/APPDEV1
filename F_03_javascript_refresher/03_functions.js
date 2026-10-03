@@ -1,13 +1,18 @@
-function greetUser(name) {
-  return "Hello, " + name + "! Ready to listen to uplifting music?";
+function greet(name) {
+  return "Hello, " + name + "!";
 }
 
-const multiplyBy13 = (num) => num * 13;
+const square = (num) => num * num;
 
-function calculateDifferenceAndQuotient(a, b) {
-  return { difference: a - b, quotient: a / b };
+function calculator(a, b) {
+  return {
+    sum: a + b,
+    difference: a - b,
+    product: a * b,
+    quotient: a / b,
+  };
 }
 
-console.log(greetUser("Jane"));
-console.log(multiplyBy13(26));
-console.log(calculateDifferenceAndQuotient(26, 13));
+console.log(greet("Justin Bieber"));
+console.log(square(5));
+console.log(calculator(10, 2));
