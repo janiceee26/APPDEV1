@@ -1,12 +1,24 @@
-const novel = { title: "Mystery Novel", totalPages: 260 };
-const { title, totalPages } = novel;
-console.log(title, totalPages);
+// 1. Object Destructuring
+const royalCharacter = {
+  name: "Princess Sofia",
+  kingdom: "Enchancia",
+  magicalItem: "Amulet of Avalor"
+};
+const { name, kingdom, magicalItem } = royalCharacter;
+console.log(`${name} of ${kingdom} wields the ${magicalItem}.`);
 
-const customNumbers = [13, 17, 25, 26];
-const [num1, num2] = customNumbers;
-console.log(num1, num2);
+// 2. Array Destructuring
+const animalFriends = ["Clover the Rabbit", "Mia the Bluebird", "Robin"];
+const [bestFriend, wingedFriend] = animalFriends;
+console.log(`Best Friend: ${bestFriend}, Winged Friend: ${wingedFriend}`);
 
-function printUser({ username }) {
-  console.log("Current User:", username);
+// 3. Parameter Destructuring in Functions
+function announceRoyalEvent({ title, host, venue }) {
+  console.log(`Event: ${title} | Hosted by: ${host} | Location: ${venue}`);
 }
-printUser({ username: "Celine" });
+
+announceRoyalEvent({
+  title: "Royal Banquet",
+  host: "Princess Sofia",
+  venue: "Enchancia Castle"
+});

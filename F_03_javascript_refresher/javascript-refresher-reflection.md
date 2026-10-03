@@ -100,3 +100,11 @@ Refactor the functions in 11_arrow_functions.js into arrow functions using Princ
 
 Reflection
 I kept the prompt concise lang po para si AI na bahala mag-refactor ng code na clean and immediately maha-highlight yung key syntactic difference ng implicit returns and full function bodies.
+
+12_destructuring.js
+
+Prompt
+Implement 12_destructuring.js using Princess Sofia's details. Run the code, then briefly explain the three forms used: object destructuring, array destructuring, and parameter destructuring in functions.
+
+Reflection
+ Ginawan ko po ng short prompt para mabilis kong magets 'yung pagkakaiba ng object, array, at parameter destructuring bago mag-React.
