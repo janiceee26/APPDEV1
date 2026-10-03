@@ -1,18 +1,28 @@
+// Person Base Class
 class Person {
-  constructor(name) {
+  constructor(name, kingdom) {
     this.name = name;
+    this.kingdom = kingdom;
   }
+
   introduce() {
-    console.log(`Hi, I am ${this.name}.`);
+    console.log(`Hello, I am ${this.name} from ${this.kingdom}.`);
   }
 }
 
-class Reader extends Person {
-  readNovel() {
-    console.log(`${this.name} is reading novels!`);
+// Student Derived Class inheriting from Person
+class Student extends Person {
+  constructor(name, kingdom, academy) {
+    super(name, kingdom);
+    this.academy = academy;
+  }
+
+  study() {
+    console.log(`${this.name} is studying royal etiquette and magic at ${this.academy}!`);
   }
 }
 
-const reader = new Reader("Charlie");
-reader.introduce();
-reader.readNovel();
+// Demonstration
+const sofia = new Student("Princess Sofia", "Enchancia", "Royal Prep Academy");
+sofia.introduce();
+sofia.study();

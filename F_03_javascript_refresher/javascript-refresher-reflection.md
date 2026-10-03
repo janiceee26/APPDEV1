@@ -116,3 +116,12 @@ Implement 13_spread_rest.js using Princess Sofia's theme. Add console.log statem
 
 Reflection
 Dito ko po na-realize kung gaano ka-important ang immutability na dapat hindi natin direct na binabago ang original data. Mas nalinawan din po ako nung nilagay ko sa prompt na patunayan muna ng AI na walang nagbago before siya i-connect and if bakit ganito mag-update ng state sa React.
+
+14_classes_inheritance.js
+
+Prompt
+Explain in exactly 3 sentences—no more, no less—what a class is, what constructor and extends do, and why class names use PascalCase. Afterwards, implement the Person and 
+Student classes in 14_classes_inheritance.js using Princess Sofia's theme, okay?
+
+Reflection
+Dito ko nakita and nabasa kung paano po buuin ang Object-Oriented Structure sa JavaScript gamit ang classes at inheritance. Sinigurado ko pong hiningi ko muna ang maikling explanation sa core concepts before isulat ang code para mas malinaw ang pagkakagamit ng constructor at extends.
