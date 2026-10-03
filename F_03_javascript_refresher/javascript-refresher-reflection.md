@@ -67,5 +67,14 @@ Prompt
 - What specific actions I should click and observe in the browser.
 
 Reflection
-Medyo sabog na po mind ko, but sinikap ko pa rin po mag-structure ng prompt para makapag-continue kami ni AI haha. (parang kausap ko na dito si batman sir haha)
+Medyo sabog na po mind ko, but sinikap ko pa rin po mag-construct ng prompt para makapag-continue haha. (parang kausap ko na dito si batman sir haha)
+
+08_essential_features.js
+
+Prompt
+Try to demonstrate .map(), destructuring, and spread syntax using Princess Sofia's guest list in 08_essential_features.js. Explain how each feature works and why they are important in React.
+
+Reflection
+Nakakasabog po hahahaha, but I managed to ask the AI to show how these three modern JS features connect and why they matter for React naman. ^^
+
 
