@@ -133,3 +133,11 @@ Explain in exactly 3 sentences—no more, no less—the difference between defau
 
 Reflection
 Here ko po nakita if paano mag-share at mag-organize ng code sa magkakahiwalay na files gamit ang ES Modules. Naging medyo malinaw na po sa akin na ang default export ay para sa main value ng module kaya walang curly braces, habang ang named export naman po ay nangangailangan ng curly braces para makuha yung particular na function o variable.
+
+17_logical_operators.js
+
+Prompt
+Create a prediction table for all test cases in 17_logical_operators.js using Princess Sofia's theme, run the file to compare actual outputs, and explain in exactly 3 sentences—no more, no less—why empty arrays [] and empty objects {} behave as truthy in JavaScript.
+
+Reflection
+Sad to say po, hindi ko na maipagpapatutuloy at matatapos nang maayos po ang Part 17 at 18 gawa ng biglang pag-reach ng quota limit sa Antigravity CLI. :<<

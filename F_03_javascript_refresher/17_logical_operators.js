@@ -1,14 +1,24 @@
-const valuesToCheck = [0, "", "Listening to music", null, undefined, [], {}];
-valuesToCheck.forEach(val => console.log(val, "->", val ? "truthy" : "falsy"));
+// Princess Sofia's Theme - Logical Operators & Truthiness
+const royalValues = [
+  0,
+  "",
+  "Amulet of Avalor",
+  null,
+  undefined,
+  [],
+  {}
+];
 
-const likesDancing = true;
-const likesReading = true;
-const activeUser = likesDancing && likesReading;
+royalValues.forEach(val => console.log(val, "->", val ? "truthy" : "falsy"));
 
-const isJane = false;
-const isCeline = true;
-const validUser = isJane || isCeline;
+const canTalkToAnimals = true;
+const hasRoyalAmulet = true;
+const fullRoyalPower = canTalkToAnimals && hasRoyalAmulet;
 
-console.log(activeUser, validUser);
-console.log("" || "Fallback Activity");
-console.log("Reading Novels" && "Novel Found!");
+const isAmber = false;
+const isSofia = true;
+const isEnchancianPrincess = isAmber || isSofia;
+
+console.log(fullRoyalPower, isEnchancianPrincess);
+console.log("" || "Default Spell: Sparkle");
+console.log("Royal Ball" && "Ball Started!");
