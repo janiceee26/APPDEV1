@@ -84,3 +84,11 @@ Create 09_tricky_parts.js covering JS equality and emptiness using Princess Sofi
 
 Reflection
 I intentionally structured po the prompt to require ng clear technical explanation and a prediction table prior to code execution, ensuring a full understanding of JavaScript's coercion and truthiness rules.
+
+10_let_const.js
+
+Prompt
+Review 10_let_const.js using Princess Sofia's code examples. Briefly explain when to use const, when to use let, and why var should be avoided, then suggest only one key improvement.
+
+Reflection
+I kept the prompt short and targeted so the AI would provide a direct style review without overwhelming me with unnecessary code changes. Effective naman po kahit papano hehe.
