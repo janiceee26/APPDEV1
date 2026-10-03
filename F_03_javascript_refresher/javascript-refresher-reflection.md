@@ -108,3 +108,11 @@ Implement 12_destructuring.js using Princess Sofia's details. Run the code, then
 
 Reflection
  Ginawan ko po ng short prompt para mabilis kong magets 'yung pagkakaiba ng object, array, at parameter destructuring bago mag-React.
+
+ 13_spread_rest.js
+
+Prompt
+Implement 13_spread_rest.js using Princess Sofia's theme. Add console.log statements that prove the original array and object remain unmutated after spreading, and show how rest operators collect function arguments. Then, act as a code reviewer to check for mutation risks and explain in exactly 3 sentences how immutability applies to React state updates—no more, no less.
+
+Reflection
+Dito ko po na-realize kung gaano ka-important ang immutability na dapat hindi natin direct na binabago ang original data. Mas nalinawan din po ako nung nilagay ko sa prompt na patunayan muna ng AI na walang nagbago before siya i-connect and if bakit ganito mag-update ng state sa React.
