@@ -1,4 +1,4 @@
-Antigravity JavaScript Refresher Reflection
+Laboratory 2: Antigravity JavaScript Refresher Reflection
 
 PART_1
 
@@ -48,4 +48,12 @@ In 05_arrays.js, demonstrate push, shift, for...of, and map using a list of Prin
 
 Reflection
 Super na-stress po ako here coz literal na nag-lalag both my lappy and my brain, like feeling ko end of the world na😭😭
-bwahahahhahahahaha! Pero I really took my time naman po to construct a clear prompt so the AI could break down array mutations and map() properly without confusing me so much^^.
+bwahahahhahahahaha! Pero I really took my time naman po to construct a clear prompt so the AI could break down array mutations and map() properly without confusing me so much. ^^
+
+06_control_structure.js
+
+Prompt
+In 06_control_structure.js, run the file first to reproduce the wrong output from the grade checker, using Princess Sofia's exam scores as example data. Next, explain the root cause of the error and propose the smallest safe fix. Wait for my approval before modifying the code, then run node 06_control_structure.js again to verify.
+
+Reflection
+Super struggle po talaga ako sa lag habang nag-dedebug, but I made sure the prompt stops the AI from fixing anything until i-approve ko na yung proposed solution.
