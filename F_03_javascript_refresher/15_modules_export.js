@@ -1,8 +1,13 @@
-const appData = { user: "Jane", age: 26 };
+// Named export using Princess Sofia's theme
+export const userInfo = {
+  name: "Princess Sofia",
+  title: "Princess of Enchancia",
+  academy: "Royal Prep Academy"
+};
 
-function getUpliftingSong() {
-  return "Playing uplifting music!";
+// Default export function
+function greet(name) {
+  return `Royal greetings from ${name}! Welcome to Enchancia!`;
 }
 
-export default getUpliftingSong;
-export { appData };
+export default greet;

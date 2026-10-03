@@ -125,3 +125,11 @@ Student classes in 14_classes_inheritance.js using Princess Sofia's theme, okay?
 
 Reflection
 Dito ko nakita and nabasa kung paano po buuin ang Object-Oriented Structure sa JavaScript gamit ang classes at inheritance. Sinigurado ko pong hiningi ko muna ang maikling explanation sa core concepts before isulat ang code para mas malinaw ang pagkakagamit ng constructor at extends.
+
+15_modules_export.js & 16_modules_import.js
+
+Prompt
+Explain in exactly 3 sentences—no more, no less—the difference between default export and named export, including why one uses curly braces on import and the other does not. Afterwards, you need to implement 15_modules_export.js with greet as a default export and userInfo as a named export using Princess Sofia's theme, then update 16_modules_import.js to import and execute both.
+
+Reflection
+Here ko po nakita if paano mag-share at mag-organize ng code sa magkakahiwalay na files gamit ang ES Modules. Naging medyo malinaw na po sa akin na ang default export ay para sa main value ng module kaya walang curly braces, habang ang named export naman po ay nangangailangan ng curly braces para makuha yung particular na function o variable.
