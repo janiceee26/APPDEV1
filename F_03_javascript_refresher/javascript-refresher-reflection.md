@@ -57,3 +57,15 @@ In 06_control_structure.js, run the file first to reproduce the wrong output fro
 
 Reflection
 Super struggle po talaga ako sa lag habang nag-dedebug, but I made sure the prompt stops the AI from fixing anything until i-approve ko na yung proposed solution.
+
+07_dom.html
+
+Prompt
+- In 07_dom.html, inspect the code without modifying it yet and explain:
+- What element the button targets and what event listener is used.
+- Why setTimeout waits before changing the paragraph content.
+- What specific actions I should click and observe in the browser.
+
+Reflection
+Medyo sabog na po mind ko, but sinikap ko pa rin po mag-structure ng prompt para makapag-continue kami ni AI haha. (parang kausap ko na dito si batman sir haha)
+
