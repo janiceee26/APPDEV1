@@ -1,0 +1,33 @@
+:root {
+  --color-surface: #fff;
+  --color-text: #5f7c8d;
+  --color-muted: #5f7c8d8c;
+  --color-inactive: #5f7c8d63;
+  --color-greeting: #7a999c;
+  --color-greeting-secondary: #567281;
+  --color-primary: #4b687a;
+  --color-primary-hover: #3d5666;
+  --color-focus: #4b687a;
+  --color-social-hover: #5f7c8d12;
+
+  --font-family-body: 'Istok Web', Helvetica, Arial, sans-serif;
+  --font-size-body: 24px;
+  --font-size-tab-mobile: 30px;
+  --font-size-tab: 36px;
+  --font-size-greeting: 48px;
+  --font-size-hero: 64px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+
+  --size-form: 432px;
+  --size-touch-target: 44px;
+  --radius-control: 0;
+}
