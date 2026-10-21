@@ -1,0 +1,1 @@
+Redesign @src/App.css and @src/components/tracks/SongList.css into a sleek, minimal, mobile-first playlist UI. Use a dark theme, clean typography, subtle glassmorphism, and smooth hover/active transitions. Keep it clean and readable—avoid excessive glow, heavy gradients, or busy background decorations. Do not create new files.
